@@ -37,26 +37,24 @@ Incluye una interfaz **HUD flotante (Always-on-Top)** táctil y arrastrable, alg
 
 ---
 
-## 🖼️ Interfaz Gráfica (HUD Overlay)
+## 🖼️ Interfaz Gráfica (HUD Overlay Flotante)
 
-```text
-┌──────────────────────────────────────────────┐
-│  SCALECORE [F2]                       🔄  🟢 │
-│                                              │
-│                  0.305 kg                    │
-│             ENCENDIDA (COM1)                 │
-└──────────────────────────────────────────────┘
-   ▲                    ▲                   ▲
-   │                    │                   └─ Estado de Conexión
-   │                    └─ Peso en Vivo (3 decimales)
-   └─ Tecla de Inyección Rápida
-```
+<div align="center">
 
-* 🟢 **Verde:** Báscula conectada transmitiendo datos estables.
-* 🟡 **Amarillo:** Buscando balanza o reconectando puerto.
-* 🔴 **Rojo:** Báscula apagada o cable desconectado.
-* 🖱️ **Clic Derecho:** Menú contextual para forzar reconexión o salir.
-* ✌️ **Doble Clic:** Inyecta el peso manualmente sin usar el teclado.
+| 🟡 Buscando Puerto / Reconectando | 🔴 Báscula Apagada / Desconectada |
+| :---: | :---: |
+| <img src="assets/hud_connecting.png" alt="ScaleCore Reconectando" width="280"/> | <img src="assets/hud_disconnected.png" alt="ScaleCore Apagada" width="280"/> |
+
+<p><sub>Widget flotante Always-on-Top de ScaleCore en tiempo real sobre la pantalla activa.</sub></p>
+
+</div>
+
+### Estados Visuales del Sistema:
+* 🟢 **Punto Verde:** Báscula encendida y transmitiendo tramas de peso estables en tiempo real.
+* 🟡 **Punto Amarillo:** Escaneando puertos COM y reconectando la comunicación serial en caliente.
+* 🔴 **Punto Rojo:** Báscula apagada, sin transmisión de datos o cable desconectado.
+* 🖱️ **Clic Derecho:** Menú contextual para forzar reconexión manual del puerto RS-232 o salir.
+* ✌️ **Doble Clic:** Inyecta inmediatamente el peso en el campo activo del POS sin presionar el teclado.
 
 ---
 
