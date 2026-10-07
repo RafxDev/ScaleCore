@@ -80,6 +80,7 @@ Incluye una interfaz **HUD flotante (Always-on-Top)** táctil y arrastrable, alg
 
 ---
 
+<!--
 ## 📂 Arquitectura del Repositorio
 
 ```text
@@ -103,6 +104,7 @@ ScaleCore/
 ├── scale_wedge.py               # Código fuente principal de la aplicación
 └── ScaleWedgePOS.spec           # Especificación de empaquetado de PyInstaller
 ```
+-->
 
 ---
 
