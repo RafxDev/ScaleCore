@@ -1,0 +1,40 @@
+# ========================================================
+# CÓDIGO FUENTE PRIVADO Y ARCHIVOS DE DESARROLLO (MORAXSOFT)
+# (Estos archivos permanecen en tu PC y NO se suben a GitHub)
+# ========================================================
+*.py
+*.bat
+*.spec
+requirements.txt
+config.json
+diagnostics/
+
+# ========================================================
+# BINARIOS, COMPILADOS Y CARPETAS DE PYINSTALLER
+# ========================================================
+build/
+dist/
+__pycache__/
+*.py[cod]
+*$py.class
+*.manifest
+
+# ========================================================
+# RESPALDOS LOCALES, TRÁMITE DNDA Y LOGS
+# ========================================================
+*.docx
+*.zip
+*.log
+
+# ========================================================
+# ENTORNOS VIRTUALES Y EDITORES
+# ========================================================
+.venv/
+venv/
+env/
+ENV/
+.env
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
