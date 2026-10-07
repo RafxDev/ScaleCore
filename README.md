@@ -106,9 +106,10 @@ ScaleCore/
 
 ---
 
+<!--
 ## ⚙️ Parametrización (`config.json`)
 
-El archivo [`config.json`](config.json) permite ajustar el comportamiento sin necesidad de modificar el código fuente:
+El archivo config.json permite ajustar el comportamiento sin necesidad de modificar el código fuente:
 
 ```json
 {
@@ -130,6 +131,7 @@ El archivo [`config.json`](config.json) permite ajustar el comportamiento sin ne
 | `trigger_key` | `string` | Tecla global de inyección (`"f2"`, `"f4"`, `"space"`, `"enter"`). |
 | `decimal_separator` | `string` | Separador de decimales (`"."` o `","`) según el formato del POS. |
 | `hud_position` | `string` | Coordenadas en pantalla (`"+X+Y"`) donde se ubica el HUD. |
+-->
 
 ---
 
